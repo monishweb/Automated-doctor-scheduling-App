@@ -1,4 +1,4 @@
-# Doctor Scheduling dApp
+# Doctor Scheduling App
 
 A decentralized application built on the Aptos blockchain that enables automated doctor appointment scheduling.
 
@@ -37,5 +37,5 @@ The smart contract is implemented in Move, Aptos's native programming language. 
 ![image](https://github.com/user-attachments/assets/2b94fdbf-d4ce-4766-a9a5-2a22f96d39ed)
 ![image](https://github.com/user-attachments/assets/ab9ec540-7443-4fc1-bf03-1b65843a1382)
 
-0x001ad30508f7e635f943aac31cb14a9f6b6b0e9615ecc8a694eea5f8c85bec85
+"transaction_hash": "0xa35adfce0ff1da393af56152817909cc2cf40725ed12a89b2a89079c1ad57c5a",
 
