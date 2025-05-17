@@ -1,24 +1,34 @@
-# Automated Doctor Scheduling dApp for Aptos
+# Doctor Scheduling dApp
+
+A decentralized application built on the Aptos blockchain that enables automated doctor appointment scheduling.
 
 ## Overview
-The Automated Doctor Scheduling dApp is a decentralized application built on the Aptos blockchain, designed to streamline doctor-patient appointment scheduling. It leverages smart contracts to automate appointment booking, cancellations, and notifications, ensuring a secure, transparent, and tamper-proof scheduling system.
+This project implements a simple yet effective doctor appointment scheduling system using Aptos smart contracts. It allows patients to request appointments with doctors, and doctors to confirm these appointments, all recorded securely on the blockchain.
 
-## Features
-- **Decentralized Scheduling:** Manage appointments using smart contracts, reducing reliance on centralized systems.
-- **Patient and Doctor Profiles:** Both patients and doctors can register and manage their profiles securely.
-- **Automated Notifications:** Automated reminders and notifications for scheduled appointments.
-- **Cancellation and Rescheduling:** Manage appointment changes with blockchain verification.
-- **Data Privacy:** Secure storage of appointment data on the Aptos blockchain.
+## Smart Contract Features
 
-## Tech Stack
-- **Blockchain:** Aptos  
-- **Smart Contracts:** Move Language  
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Wallet Integration:** Martian Wallet / Pontem Wallet  
+- **Patient Appointment Requests:** Patients can request appointments with doctors by specifying the doctor's address, preferred time, and a brief description of the visit.  
+- **Doctor Confirmations:** Doctors can confirm pending appointments requested by patients.  
+- **Appointment Status Tracking:** The system tracks whether appointments are pending or confirmed.  
+- **Security:** Built-in authorization checks ensure only the designated doctor can confirm specific appointments.
 
-## Installation
-1. Clone the repository:
+## Technical Implementation
+The smart contract is implemented in Move, Aptos's native programming language. It uses the following key components:
+
+- **Table Structure:** Efficiently stores and accesses appointment data.  
+- **Appointment Struct:** Contains all relevant appointment information.  
+- **AppointmentStore Resource:** Manages appointments for each user.
+
+## Getting Started
+
+### Prerequisites
+- Aptos CLI  
+- Aptos SDK  
+- Basic understanding of Move programming language
+
+### Installation
+
+1. Clone this repository:
    ```bash
-   https://github.com/monishweb/Automated-doctor-scheduling-App/
+   git clone https://github.com/monishweb/Automated-doctor-scheduling-App.git
+   cd Automated-doctor-scheduling-App
