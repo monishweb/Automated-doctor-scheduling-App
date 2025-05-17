@@ -33,7 +33,7 @@ The smart contract is implemented in Move, Aptos's native programming language. 
    git clone https://github.com/monishweb/Automated-doctor-scheduling-App.git
    cd Automated-doctor-scheduling-App
 
-###Screenshot
+## Screenshot
 ![image](https://github.com/user-attachments/assets/2b94fdbf-d4ce-4766-a9a5-2a22f96d39ed)
 0x001ad30508f7e635f943aac31cb14a9f6b6b0e9615ecc8a694eea5f8c85bec85
 
