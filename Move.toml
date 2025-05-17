@@ -1,0 +1,16 @@
+[package]
+name = "aptos-project"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DoctorScheduling = "0x001ad30508f7e635f943aac31cb14a9f6b6b0e9615ecc8a694eea5f8c85bec85"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
